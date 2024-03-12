@@ -1,0 +1,105 @@
+body {
+    margin: 0px;
+  }
+  
+  h1,
+  h2,
+  h3,
+  p {
+    margin: 0px;
+  }
+  
+  ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+  }
+  img {
+    max-width: 100%;
+    display: block;
+  }
+body{
+    background-color: #161621;
+    font-family: "Jockey One", sans-serif;
+    font-size:x-small;
+    color: white;
+    height: 100%;
+    width: 100%;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    background-color: #222232;
+}
+
+
+.titulo {
+    margin-top: 1.875rem;
+    margin-left: 0.938rem;
+    font-family: "Roboto Flex", Arial, sans-seriff;
+}
+
+.torneios{
+    margin-top: 0.938rem;
+    margin-left: 1.875rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container-torneio{
+    margin-top: 1.25rem;
+    border-radius: 1rem;
+    align-items: center;
+    width: 18.75rem;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.torneio-titulo {
+    margin-top: 0.313rem;
+    margin-bottom: 0.625rem;
+}
+
+h2 {
+    margin-bottom: 0.313rem;
+    margin-left: 1.25rem;
+}
+
+.n-partidas {
+    justify-self: end;
+}
+
+.seta {
+    margin: 0px 0.938rem;
+}
+
+.torneio-info-box{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.torneio-box{
+    display: grid;
+    grid-template-columns: 1fr 1fr
+}
+
+.botao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10rem;
+    margin-top: 8rem;
+}
+
+.addbutton{
+    font-size: medium;
+    width:  18.75rem;
+    height: 3.125rem;
+    border-radius: 1rem;
+    color: white;
+    background-color: #19AE47;
+}
