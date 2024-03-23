@@ -118,7 +118,7 @@ h2 {
 .vermais {
   font-size: 1.25rem;
   font-family: Jockey One;
-
+  border: none;
   width: 18.75rem;
   height: 2.188rem;
   border-radius: 0.313rem;
@@ -134,4 +134,5 @@ h2 {
   border-radius: 0.313rem;
   color: white;
   background-color: #19ae47;
+  border: none;
 }
