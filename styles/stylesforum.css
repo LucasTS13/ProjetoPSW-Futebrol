@@ -13,7 +13,15 @@ header{
     align-items: center;
     background-color: #222232;
 }
+.search-box{
+    position: relative;
 
+}
+.search-txt{
+    height: 4rem;
+    border-radius: 100px;
+    color: white;
+}
 input{
     width: 80%;
     font-size: 1rem;
